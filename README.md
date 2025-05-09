@@ -1,5 +1,5 @@
 # IoT-Based-Finger-Vein-Biometric-Recognition-for-Security-System-Access
-A research about detecting the accuracy of image comparing after image processing and extract only the vein lines on the finger image and testing about the false alarm
+A research about detecting the accuracy of image comparing after image processing and extract only the vein lines on the finger image and testing about the false alarm. PLEASE READ THE README BEFORE TESTING!!!!.
 The file ESP32Cam.INO is a program uploaded to your ESP32 CAM. the board used is AI THINKER ESP32-CAM. Don't forget to change several lines of the program to fit accordingly and work properly such as the serverName, SSID and the Password. note: for the serverName, the IP is the address for the server.
 The file WemosDaftar.INO is a program used for regitering the vein images into the server which is the python. it functions as the trigger for esp32 cam to capture the image. Change the line like on point three. note: for the espCamServer, the IP is the adress for the ESP32Cam.
 The file WemosCompare.INO is the file for comparing the image, it functions as the trigger for esp32 cam to capture the image and at the same time functions for the output of the results after processing the image.
